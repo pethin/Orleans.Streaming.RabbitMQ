@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A7F48042-233E-4CE6-BE17-F9F3ADCA1FFB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Orleans.Streaming.RabbitMQ", "src\Orleans.Streaming.RabbitMQ\Orleans.Streaming.RabbitMQ.csproj", "{FB95C6B8-5683-4CCC-AD4F-D55C7A94C101}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{6F4163AF-A887-4103-BD60-77F56F16E54D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntegrationTests", "test\IntegrationTests\IntegrationTests.csproj", "{90CEAE02-D13A-408D-9A9B-FACA789B4E5D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FB95C6B8-5683-4CCC-AD4F-D55C7A94C101} = {A7F48042-233E-4CE6-BE17-F9F3ADCA1FFB}
+		{90CEAE02-D13A-408D-9A9B-FACA789B4E5D} = {6F4163AF-A887-4103-BD60-77F56F16E54D}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FB95C6B8-5683-4CCC-AD4F-D55C7A94C101}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB95C6B8-5683-4CCC-AD4F-D55C7A94C101}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB95C6B8-5683-4CCC-AD4F-D55C7A94C101}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB95C6B8-5683-4CCC-AD4F-D55C7A94C101}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90CEAE02-D13A-408D-9A9B-FACA789B4E5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90CEAE02-D13A-408D-9A9B-FACA789B4E5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90CEAE02-D13A-408D-9A9B-FACA789B4E5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90CEAE02-D13A-408D-9A9B-FACA789B4E5D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
